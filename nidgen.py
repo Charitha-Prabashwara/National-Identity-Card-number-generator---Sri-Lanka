@@ -193,7 +193,6 @@ class Genarate(object):
           self.gender)
         return data
 
-#x = Genarate(1, 12, 2020, 'male', 'permanant', True)
-#r = x.bruteforceAll('acs')
-#print(r)
-
+x = Genarate(1, 12, 2020, 'male', 'permanant', True)
+r = x.bruteforceAll('acs')
+print(r.count)
